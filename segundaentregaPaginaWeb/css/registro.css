@@ -1,0 +1,88 @@
+.logo{
+    height: 90px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+small{
+    color:red
+}
+
+.btn{
+  color:rgb(252, 255, 252) ;
+  background-color:rgba(9, 130, 59, 0.958);
+  border-color:rgba(9, 130, 59, 0.958);
+  
+}
+
+/* acá iran todas las cosas para el modo oscuro */
+.fondoIni{
+    background-color:rgba(9, 130, 59, 0.958);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ .fondo-Ini2{
+    background-color: white;
+    padding: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    color: gray;
+    width: 27rem;
+} 
+
+#toggle{
+    display: none;
+    
+  }
+  
+  #label_toggle{
+    padding-right: 100px;
+    font-size: 2em;
+    color:rebeccapurple;
+    cursor:pointer
+  }
+
+  .dark #label_toggle{
+    padding-right: 100px;
+    font-size: 2em;
+    color:rebeccapurple;
+    cursor:pointer
+  }
+  
+  
+  .dark{
+    background-color: rgb(22, 10, 61);
+    color: white;
+    transition: all 1.5s ease;
+  }
+  
+  .dark .nav-link{
+    padding-right:  30px;
+    color: white;
+  }
+  
+  
+
+.dark .fondoIni{
+    background-color: rgba(41, 14, 96, 0.759);
+}
+
+.dark .fondo-Ini2{
+    background-color: rgba(28, 9, 65, 0.759);
+    color: white;
+}
+
+
+.container-clock{
+  color: black;
+  padding-right: 60px;
+}
+
+.dark .container-clock{
+  color: white;
+  padding-right: 60px;
+}

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      
+      
+    />
+    
+    
+
+    <link rel="stylesheet" href="css/otroinicio.css" />
+    <title>SweetGarden</title>
+  </head>
+  <body>
+
+
+    <nav
+      class="navbar navbar-expand-lg bg-body-success"
+      style="color: rgb(255, 255, 255)"
+    >
+      <div class="container-fluid">
+        <a href="inicio.html">
+          <img src="img/logo.png" class="logo" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-3">
+            <li class="nav-item ">
+              <a class="nav-link" href="inicio.html">Inicio</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#Clima">Clima</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mapa">Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="iniciosesion2.html">Inicia Sesion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="metodos.html">Crud</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="flores.html#flores">Flores</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="flores.html#maceteros">Maceteros</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="flores.html#tierra">tierra de hojas</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="flores.html#arbustos">Arbustos</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+
+          <label for="toggle" id="label_toggle"><i class="fa-solid fa-moon"></i></label>
+          <input type="checkbox" id="toggle">
+          
+          <div class="container-clock mt-4">
+            <h1 id="time">00:00:00</h1>
+            <p id="date">date</p>
+          </div>
+          
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar productos"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- fin de menu -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active d-item">
+          <img
+            src="img/flores1.jpg"
+            class="d-block w-100 d-img"
+            alt="slider1"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">Variedad de productos</p>
+            <h1 class="display-1 fw-bolder text-capitalize">SweetGarden</h1>
+            <a href="flores.html">
+              <button class="btn btn-success px-4 py-2 fs-5 mt-5">
+               Mas información
+              </button>
+            </a>
+
+            
+          </div>
+        </div>
+
+        <div class="carousel-item d-item">
+          <img
+            src="img/jardineria1.jpg"
+            class="d-block w-100 d-img"
+            alt="slider1"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">Comunidad de vecinos que vende productos de jardinería para apoyar a una fundación.</p>
+            <h1 class="display-1 fw-bolder text-capitalize">Ayudanos!</h1>
+            <a href="Nosotros.html">
+            <button class="btn btn-success px-4 py-2 fs-5 mt-5">
+             Nosotros
+            </button>
+          </a>
+          </div>
+        </div>
+
+        <div class="carousel-item d-item">
+          <img
+            src="img/maceta1.jpg"
+            class="d-block w-100 d-img"
+            alt="slider1"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">Variedad de productos</p>
+            <h1 class="display-1 fw-bolder text-capitalize">SweetGarden</h1>
+            <a href="macetas.html">
+              <button class="btn btn-success px-4 py-2 fs-5 mt-5">
+               Nosotros
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- end carousel -->
+
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+      <h1 class="p-3 fs-2 border-top border-2">
+        ¡Bienvenidos a nuestra página de
+        <span style="color: rgb(6, 171, 22)">Jardinería!</span>
+      </h1>
+      <p class="p-3 fs-6">
+        en <span style="color: rgb(6, 171, 22)">SweetGarden</span> encontrarás
+        todo lo que necesitas saber para crear y mantener un hermoso jardín en
+        tu hogar. La jardinería es una actividad que puede ser muy gratificante
+        y relajante, además de ser una excelente manera de conectarse con la
+        naturaleza y embellecer tu espacio al aire libre.
+      </p>
+    </section>
+
+    <!-- informacion extra -->
+    <div class="container-fluid text-center" style="background-color: #e9f1eb">
+      <div class="row">
+        <div class="col mt-4 pt-5 pb-5">
+          <i class="fa-solid fa-book display-5 pb-3"></i>
+          <h3>Desarrollo Avanzado</h3>
+          <p>
+            Productos de alta calidad, ampliamente utilizados y validados en
+            jardines y la industria agrícola.
+          </p>
+        </div>
+
+        <div class="col mt-4 pt-5 pb-5">
+          <i class="fa-solid fa-leaf display-5 pb-3"></i>
+          <h3>Plantas mas Sanas</h3>
+          <p>
+            Sin amarillamiento de hojas, necrosis, hongos y desordenes
+            fisiológicos que causan pudrición de las raíces.
+          </p>
+        </div>
+        <div class="col mt-4 pt-5 pb-5">
+          <i class="fa-solid fa-globe display-5 pb-3"></i>
+          <h3>Para todo el uso</h3>
+          <p>
+            Productos para las áreas de jardinería, viveros, proyectos de
+            paisajismo, incluso un proyecto personal de jardín
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div><img src="img/estasi2.jpg " alt="" /></div>
+
+      <span class="info-Quehacemo">
+        <p>¿que hacemos?</p>
+        <h1>Vendemos los mejores productos de jardineria</h1>
+        <br />
+        <p>
+          nuestra pagina se especializa en la venta de productos de la mejor
+          calidad y con el principal objetivo de cuidar a nuestras flores y
+          plantas, ademas de ofrecer una amplia gama de productos y suministros
+          para ayudarte a cuidar y mantener tu jardín.
+        </p>
+        <ul>
+          <li>Productos seleccionados</li>
+          <br />
+          <li>Formatos convenientes</li>
+          <br />
+          <li>catalogo actualizado</li>
+        </ul>
+        <div class="boton1 ps-3 pt-2">
+          <a href="flores.html">
+          <button class="btn btn-success">Productos</button></a>
+        </div>
+      </span>
+    </div>
+
+   
+    
+    <div class="container-fluid text-center" style="background-color: #e9f1eb">
+      <div class="row">
+        <div class="col mt-4 pt-5 pb-5">
+          <h1>Ubicado en Santiago, Chile</h1>
+        <br />
+        <p>
+          Elegimos Santiago para nuestra sucursal con el objetivo de estar cerca de nuestros clientes, estamos ubicados Macul, cerca de los mejores restaurantes, tiendas y parques, y tan solo a 15 minutos de una espectacular piscina. ¡Visitenos y no se arrepentiran!
+        </p>
+        <p>nos puedes contactar o encontrar tambien!</p>
+        <p>llamanos al: +56 9289 9192</p>
+        
+        <div id="Clima">
+          <h4 id="resultDolar">Clima: </h4>
+          <h4 id="resultDolar2">Descripción: </h4>
+          <h4 id="resultDolar3"> La temperatura es: </h4>
+          <h4 id="resultDolar4"></h4>
+          <h4 id="resultDolar5"></h4>
+          <h4 id="resultDolar6"></h4>
+          <h4 id="resultDolar7"></h4>
+      </div>
+        </div>
+
+        <div class="col pb-2 " id="mapa">
+          
+           <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53262.28925476311!2d-70.6935409844393!3d-33.45209207784555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d0069af23abb%3A0x879d59f409ed4897!2sSantiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1680408793706!5m2!1ses!2scl"
+          style="border: 0; width: 100%; height: 100%;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe> 
+        
+        </div>
+      </div>
+    </div>
+    
+    <!-- footer -->
+    <div class="container-fluid">
+
+      <div class="row p-5 pb-2 bg-dark text-white">
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h2">SweetGarden</p>
+          <p class="text-secondary text-decoration-none">Santiago, Chile</p>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">Mas recursos</p>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">homevan</a>
+          </div>
+
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#"
+              >jhpaisajismo</a>
+          </div>
+
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#"
+              >cultigarden</a
+            >
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">Links</p>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#"
+              >Terminos & condiciones</a
+            >
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">Politica</a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">Contacto</p>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#"
+              >Instagram</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">Whatsapp</a>
+          </div>
+        </div>
+        <div class="col-xs-12 pt-4">
+          <p class="text-white text-center pt-5 ">Copyright - Todos los derechos resevados © 2023 </p>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    <script src="js/darkmode.js"></script>
+    <script src="js/ConsumirApi.js"></script>
+    <script src="js/Reloj.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+      integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

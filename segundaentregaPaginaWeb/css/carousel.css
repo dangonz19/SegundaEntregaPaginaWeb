@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    /* flex-direction: flex; */
+    
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 50px;
+  }
+
+  .ola {
+    padding-left: 20px;
+    max-width: 400px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* Estilos para pantallas de 768px o menos */
+    .container {
+      flex-direction: column;
+    }
+
+   
+  }
+
+
+  /* ------------------------------------ */
+
+  .mapaDesc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ola {
+    width: 100%;
+  }
+
+  .mapa {
+    width: 100%;
+    height: 400px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .mapaDesc {
+      flex-direction: row;
+    }
+
+    .ola {
+      width: 50%;
+      padding-right: 50px;
+    }
+
+    .mapa {
+      width: 50%;
+      height: 400px;
+    }
+  }
+
+ 

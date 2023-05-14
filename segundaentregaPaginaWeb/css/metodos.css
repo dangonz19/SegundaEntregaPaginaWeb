@@ -1,0 +1,131 @@
+form .btn{
+  color:rgb(252, 255, 252) ;
+  background-color: rgb(4, 131, 34);
+  border-color:rgb(4, 131, 34) ;
+  
+}
+
+.dmi{
+   padding-top: 30px;
+   padding-bottom: 30px;
+    text-align: center;
+    background-color: #e9f1eb;
+    
+    
+} 
+.logo{
+    height: 90px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+/* dark */
+.dark{
+    background-color: rgb(22, 10, 61);
+    color: white;
+    transition: all 1.5s ease;
+  }
+  
+  .dark .nav-link{
+    padding-right:  30px;
+    color: white;
+  }
+  
+
+.dark .dmi{
+    background-color: rgba(41, 14, 96, 0.759);
+    color: white;
+}
+
+
+#toggle{
+    display: none;
+    
+  }
+  
+  #label_toggle{
+    padding-right: 70px;
+    font-size: 2em;
+    color:rebeccapurple;
+    cursor:pointer
+  }
+
+
+  .dark .table{
+    color: white;
+  }
+
+  
+/* CRUD */
+
+
+#btnUpdate{
+  display: none;
+}
+
+.contenedorbroder{
+  background-color: #a7c7af;
+ 
+  
+  height: 100%;
+  padding-bottom: 1px;
+  padding-top: 13px;
+}
+
+.contenedorbroder label{
+  color: black
+}
+
+.contenedorbroder th{
+  color: black;
+}
+
+.contenedorbroder td{
+  color: black;
+}
+
+
+
+.container-fluid h2{
+  background-color: rgb(4, 131, 34);
+  color: white;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  margin-left: -15px;
+  margin-right: -12px;
+  
+  
+}
+
+/* crud dark*/
+
+.dark .contenedorbroder{
+  background-color: rgb(22, 10, 61);
+}
+
+.dark .container-fluid h2{
+  background-color: rgb(38, 19, 101);
+}
+
+.dark .contenedorbroder label{
+  color: white;
+}
+
+.dark .contenedorbroder th{
+  color: white;
+}
+
+.dark .contenedorbroder td{
+  color: white;
+}
+
+.moverVolver{
+  margin-top: 10px;
+}
+
+.container-clock{
+
+  padding-right: 100px;
+  
+}

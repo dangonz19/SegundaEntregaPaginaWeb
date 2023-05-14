@@ -1,0 +1,93 @@
+.logo{
+    height: 90px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+small{
+    color: red;
+}
+
+.btn{
+    color:rgb(252, 255, 252) ;
+    background-color:rgba(9, 130, 59, 0.958);
+    border-color:rgba(9, 130, 59, 0.958);
+    
+}
+
+.fondoIni{
+    background-color:rgba(9, 130, 59, 0.958);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#miFormulario{
+    background-color: white;
+    padding: 70px;
+    border-radius: 30px;
+    color: gray;
+    width: 28rem;
+}
+/* background */
+
+#toggle{
+    display: none;
+    
+  }
+  
+  .dark #label_toggle{
+    padding-right: 70px;
+    font-size: 2em;
+    color:rebeccapurple;
+    cursor:pointer
+  }
+
+  #label_toggle{
+    font-size: 2em;
+    padding-right: 70px;
+    color:rebeccapurple;
+    cursor:pointer
+  }
+
+ 
+  
+  
+  .dark{
+    background-color: rgb(22, 10, 61);
+    color: white;
+    transition: all 1.5s ease;
+  }
+  
+  .dark .nav-link{
+    padding-right:  30px;
+    color: white;
+    
+  }
+  
+  
+
+.dark .fondoIni{
+    background-color: rgba(41, 14, 96, 0.759);
+}
+
+.dark #miFormulario{
+    background-color: rgba(28, 9, 65, 0.759);
+    color: white;
+}
+
+.error{
+  color: red;
+}
+
+/* reloj */
+.dark .container-clock{
+  color:white;
+  padding-right: 30px;
+  
+}
+.container-clock{
+  color: black;
+  padding-right: 30px;
+}
